@@ -1,10 +1,8 @@
 package com.example.demo.services;
 
 import com.example.demo.entities.User;
-import com.example.demo.repositoriy.UserRepository;
-import org.hibernate.annotations.Comment;
+import com.example.demo.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
